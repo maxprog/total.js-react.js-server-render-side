@@ -1,0 +1,10 @@
+.Login-loginButton {
+  display: inline-block;
+  margin: 0px auto;
+  padding: 10px 40px;
+  border-radius: 5px;
+  background-color: #eb5424;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}

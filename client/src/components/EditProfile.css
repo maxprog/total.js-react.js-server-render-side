@@ -1,0 +1,49 @@
+.EditProfile {
+  max-width: 480px;
+  margin: 0px auto;
+}
+
+.EditProfile-fieldset {
+  padding: 0px;
+  border: none;
+}
+
+.EditProfile-locationLabel {
+  margin-bottom: 5px;
+  font-weight: bold;
+  float: left;
+}
+
+.EditProfile-locationInput {
+  width: 100%;
+  border: 1px solid #aaa;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.EditProfile-formControls {
+  padding: 10px 0px;
+}
+
+.EditProfile-submitButton {
+  display: inline-block;
+  margin: 0px auto;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #eb5424;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.EditProfile-saved {
+  margin-top: 10px;
+  color: #7ed321;
+}
+
+.EditProfile-heading {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 28px;
+  margin: 30px 0px 20px 0px;
+}
