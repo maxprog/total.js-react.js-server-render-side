@@ -4,4 +4,3 @@ allow-compile-script : false
 allow-compile-html : false
 allow-compile-css : false
 allow-gzip : false
-

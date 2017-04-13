@@ -3,21 +3,24 @@
 const path = require('path');
 
 module.exports = {
-  entry:  path.join(__dirname, "src", "main.js"),
-  output: {
-    path: path.join(__dirname, "public"),
-    filename: "app.bundle.js"
-  },
-  module: {
-    loaders: [
-      {
-        test: path.join(__dirname, "src"),
-        loader: 'babel-loader',
-        query: {
-          cacheDirectory: 'babel_cache',
-          presets: ['es2015', 'react']
-        }
-      }
-    ]
-  }
-};
+    context: __dirname + "/client",
+    entry: "./main.js",
+    output: {
+
+        filename: "./build/app.bundle.js"
+    },
+    resolve: {
+        extensions: ['', '.js', '.jsx']
+    },
+    module: {
+        loaders: [
+            {
+             test: /\.jsx?$/,
+             loader: 'babel',
+             query: {
+             presets: ['react', 'es2015']
+             }
+            }
+        ]
+    }
+}
