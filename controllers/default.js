@@ -24,7 +24,9 @@ exports.install = function() {
 
         const markup = ReactDom.renderToString(routerContext(renderProps));
         // OR alternative way
-       // const markup = ReactDom.renderToString(<Router.RouterContext {...renderProps} />);
+        // const markup = ReactDom.renderToString(<Router.RouterContext {...renderProps} />);
+
+
        console.log('markup',markup);
         self.view('index', {markup:markup});
       } else {
